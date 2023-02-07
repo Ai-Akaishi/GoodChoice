@@ -1,0 +1,7 @@
+{
+    "criteria": {
+        "talking": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

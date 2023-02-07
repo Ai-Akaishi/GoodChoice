@@ -1,0 +1,50 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_wait",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": [
+                                {
+                                    "text": ""
+                                },
+                                [
+                                    {
+                                        "nbt": "_[-4][-4][-4][-4][-4]",
+                                        "storage": "good_choice:trigger",
+                                        "interpret": true,
+                                        "underlined": true,
+                                        "color": "aqua"
+                                    },
+                                    [
+                                        {
+                                            "nbt": "buttons_copy[0].format",
+                                            "storage": "good_choice:",
+                                            "interpret": true
+                                        },
+                                        {
+                                            "nbt": "buttons_copy[0].caption",
+                                            "storage": "good_choice:"
+                                        }
+                                    ]
+                                ],
+                                {
+                                    "nbt": "buttons_copy[0].extra",
+                                    "storage": "good_choice:",
+                                    "interpret": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
